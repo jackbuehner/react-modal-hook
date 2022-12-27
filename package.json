@@ -1,10 +1,11 @@
 {
-  "name": "react-modal-hook",
+  "name": "@cristata/react-modal-hook",
   "version": "3.0.2",
   "description": "React hook for showing modal windows",
   "author": "mpontus",
+  "publisher": "jackbuehner",
   "license": "MIT",
-  "repository": "mpontus/react-modal-hook",
+  "repository": "https://github.com/jackbuehner/react-modal-hook",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -25,8 +26,8 @@
   "dependencies": {},
   "peerDependencies": {
     "prop-types": "^15.5.4",
-    "react": ">=16.8.3",
-    "react-dom": ">=16.8.3"
+    "react": ">=16.8.3 || >=17.0.0 || >=18.0.0",
+    "react-dom": ">=16.8.3 || >=17.0.0 || >=18.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.1.1",
